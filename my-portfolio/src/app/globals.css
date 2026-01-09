@@ -33,3 +33,13 @@ body {
 .hide-scrollbar::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
+
+.item {
+  position: absolute;
+  font-size: 5rem;
+  font-weight: bold;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.5s ease-in-out;
+  pointer-events: none;
+}
