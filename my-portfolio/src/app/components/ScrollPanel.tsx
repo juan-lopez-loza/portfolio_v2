@@ -33,7 +33,7 @@ export default function ScrollPanel() {
     return (
         <div
             onWheel={handleWheel}
-            className="relative bg-red-600 w-full h-full overflow-hidden"
+            className="relative bg-red-600 w-full h-full overflow-hidden border-white/50 border"
         >
             <AboutMe className={index === 0 ? "active" : "hidden"} />
             <Skills className={index === 1 ? "active" : "hidden"} />
