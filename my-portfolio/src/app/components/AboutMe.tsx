@@ -1,7 +1,13 @@
+//
+//  AboutMe.tsx
+//  Portfolio
+//
+//  Created by Juan Lopez Loza on 10/01/2026.
+//
+
 "use client";
 
 import React, { useState } from "react";
-import Me from "./Me";
 import { about } from "@/data/about";
 import { status } from "@/data/status";
 
@@ -20,25 +26,19 @@ export default function AboutMe({ className }: AboutMeProps) {
     }
 
     return (
-        <main className={`relative w-full h-full about-me ${className ?? ""}`}>
-            <Me className="absolute -bottom-235 left-1/2 right-1/2 -translate-x-1/2 w-[90%] md:w-[90%] z-10 origin-top"/> {/*duration-300 hover:scale-110 transition-transform*/}
-            <h1 className="absolute top-4 left-1/2 -translate-x-1/2 w-full text-center text-[18vw] md:text-[15vw] font-black text-black leading-none scale-x-[1.6] origin-center uppercase">
-                {about.firstname}
-            </h1>
-            <h3 className="absolute top-75 left-8 text-[4vw] font-black text-black leading-none tracking-tight">
-                {about.lastname}
-            </h3>
-            <div className="absolute top-80 right-8 text-right flex flex-col items-end font-bold text-[3vw] md:text-[1.5vw] uppercase leading-tight z-11">
-                <span>{about.birth}</span>
+            <div className={`right-8 mt-75 mr-5 text-right flex flex-col items-end font-bold uppercase leading-tight z-11 ${className ?? ""}`}>
+                <span>Born in 2007</span>
+                <span>in Cannes, France.</span>
+                <span>I love create</span>
+                <span>and solving</span>
+                <span>problem with</span>
+                <span>programming.</span>
+                <span>I'm student at</span>
+                <span>Epitech Nice</span>
+                <span>currently in</span>
+                <span>first year of</span>
+                <span>Bachelors.</span>
                 <span className="text-yellow-400" onMouseOver={changeStatus}>{status[index].title}</span>
-                <h3 className="mt-4 w-[33vw] text-[5vw] md:text-[3vw] font-black text-white leading-none uppercase">
-                    {about.interest}
-                </h3>
             </div>
-            <div className="absolute bottom-12 left-8 flex flex-col font-black text-[4vw] md:text-[2vw] uppercase leading-none z-11">
-                <span>{about.state}</span>
-                <span className="opacity-50 text-[2vw] md:text-[1vw]">Portfolio 2026</span>
-            </div>
-        </main>
     );
 }
