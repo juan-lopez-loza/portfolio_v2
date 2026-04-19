@@ -26,7 +26,7 @@ export default function AboutMe({ className }: AboutMeProps) {
     }
 
     return (
-            <div className={`right-8 mt-75 mr-5 text-right flex flex-col items-end font-bold uppercase leading-tight z-11 ${className ?? ""}`}>
+            <div className={`absolute right-8 mt-35 mr-5 text-right flex flex-col items-end font-bold uppercase leading-tight z-11 ${className ?? ""}`}>
                 <span>Born in 2007</span>
                 <span>in Cannes, France.</span>
                 <span>I love create</span>

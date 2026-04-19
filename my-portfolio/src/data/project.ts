@@ -4,7 +4,7 @@ export const projects = {
     project: [
         {
             id: 1,
-            title: "Site Vitrine Infirmière",
+            title: "Nurse Website",
             url: "https://www.lydgie-cottard.fr",
             githubUrl: "https://github.com/juan-lopez-loza/nurse_website",
             description: "Le tout premier site vitrine que j'ai réaliser, dans l'optique de présenter et mettre en avant une infirmière libérale.",
