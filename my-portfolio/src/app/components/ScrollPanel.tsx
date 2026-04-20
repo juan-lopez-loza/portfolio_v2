@@ -41,10 +41,10 @@ export default function ScrollPanel() {
                         onClick={displaySection}
                         data-section={section}
                         className={`cursor-pointer text-left text-xs uppercase tracking-[0.3em] transition-all duration-300 font-bold ${
-                            index === i ? "text-accent translate-x-4" : "text-foreground/30 hover:text-foreground"
+                            index === i ? " translate-x-4" : "text-foreground/30 hover:text-foreground"
                         }`}
                     >
-                        {index === i ? `• ${section}` : section}
+                        {index === i ? `• ` : section}
                     </span>
                 ))}
             </nav>

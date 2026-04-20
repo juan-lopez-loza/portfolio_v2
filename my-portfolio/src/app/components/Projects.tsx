@@ -23,7 +23,7 @@ export default function Projects({ className }: ProjectsProps) {
                             </span>
                             
                             {/* Project Title */}
-                            <h3 className="text-5xl md:text-8xl font-black uppercase leading-[0.9] tracking-tighter text-right group-hover:text-accent transition-colors duration-500">
+                            <h3 className="text-5xl md:text-8xl font-black uppercase leading-[0.9] tracking-tighter text-right transition-colors duration-500">
                                 {project.url ? (
                                     <a href={project.url} target="_blank" rel="noopener noreferrer" className="block">
                                         {project.title.split(' ').map((word, index) => (
@@ -58,7 +58,7 @@ export default function Projects({ className }: ProjectsProps) {
                                         href={project.githubUrl} 
                                         target="_blank" 
                                         rel="noopener noreferrer" 
-                                        className="mt-6 text-[10px] uppercase tracking-[0.4em] border-b border-white/20 pb-1 hover:border-accent hover:text-accent transition-all"
+                                        className="mt-6 text-[10px] uppercase tracking-[0.4em] border-b border-white/20 pb-1 hover:border-white hover:text-white transition-all"
                                     >
                                         View Source code
                                     </a>

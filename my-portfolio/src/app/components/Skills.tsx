@@ -25,11 +25,11 @@ export default function Skills({ className }: SkillsProps) {
     return (
         <main className={`h-full ${className ?? ""}`}>
             <div className="absolute top-80 right-8 text-right flex flex-col items-end font-bold text-[3vw] md:text-[1.5vw] uppercase leading-tight z-11">
-                <h3 className="text-yellow-400">Backend</h3>
+                <h3 className="text-yellow-400 italic">Backend</h3>
                 <span className="text-white whitespace-pre-line">{backendNames}</span>
-                <h3 className="text-yellow-400">Frontend</h3>
+                <h3 className="text-yellow-400 italic">Frontend</h3>
                 <span className="text-white whitespace-pre-line">{frontendNames}</span>
-                <h3 className="text-yellow-400">Tools</h3>
+                <h3 className="text-yellow-400 italic">Tools</h3>
                 <span className="text-white whitespace-pre-line">{toolsNames}</span>
             </div>
         </main>
