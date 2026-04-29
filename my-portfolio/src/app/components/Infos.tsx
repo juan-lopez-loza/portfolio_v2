@@ -10,7 +10,7 @@ type InfosProps = {
 export default function Infos({ className }: InfosProps) {
     const details = [
         { label: "Location", value: "Cannes / Nice, FR" },
-        { label: "Education", value: "Epitech Digital School" },
+        { label: "Education", value: "Epitech" },
         { label: "Specialization", value: "Full stack/IOT" },
         { label: "Year", value: "2026 / 2027" },
         { label: "Interest", value: "IOT, Design, UI/UX, Backend " }
