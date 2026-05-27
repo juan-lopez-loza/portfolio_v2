@@ -8,10 +8,9 @@ type ContactProps = {
 
 export default function Contact({ className }: ContactProps) {
     const socialLinks = [
-        { label: "Email", value: "juan.lopez-loza@epitech.eu", url: "mailto:juan.lopez-loza@epitech.eu" },
-        { label: "LinkedIn", value: "Juan Lopez Loza", url: "https://www.linkedin.com/in/juan-lopez-loza-12550939b/" },
-        { label: "GitHub", value: "juan-lopez-loza", url: "https://github.com/juan-lopez-loza" },
-        { label: "Instagram", value: "@juan_llz", url: "https://instagram.com/juan_lopez_loza" }
+        { label: "juan.lopez-loza@epitech.eu", value: "Email", url: "mailto:juan.lopez-loza@epitech.eu" },
+        { label: "Juan Lopez Loza", value: "LinkedIn", url: "https://www.linkedin.com/in/juan-lopez-loza-12550939b/" },
+        { label: "juan-lopez-loza", value: "GitHub", url: "https://github.com/juan-lopez-loza" }
     ];
 
     return (
